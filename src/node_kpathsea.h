@@ -1,7 +1,8 @@
 #pragma once
 
 #include <nan.h>
-#include <kpathsea/kpathsea.h>
+#include <kpathsea/tex-file.h>
+#include <kpathsea/progname.h>
 
 class Kpathsea : public Nan::ObjectWrap {
 public:
