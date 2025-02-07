@@ -7,10 +7,12 @@
       ],
       "include_dirs": [
         "<!(node -e \"require('nan')\")",
+        "/opt/homebrew/opt/texlive/include/"
       ],
       "link_settings": {
         "libraries": [
-          "-lkpathsea",
+          "-L/opt/homebrew/opt/texlive/lib/",
+          "-lkpathsea"
         ],
       },
     },
